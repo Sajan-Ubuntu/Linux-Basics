@@ -1,0 +1,28 @@
+What is Package Management?
+
+ >> Manage software using YUM/DNF and RPM for your Red Hat-based Linux systems like CentOS.
+ 
+    APT (Advance Package Management) for Debian based Operating Systems such as Ubuntu, Kali Linux, etc.
+    
+
+What is Package Manager?
+
+>> A collection of software tools that automates the process of installing, upgrading, configuring and
+   removing computer prorams for a computer in a consistent manner.
+   
+   A package manager deals with packages, distributions of software and data in archive files.
+       
+Various commands used in package management:-
+
+-------------------------------------------------------
+
+	--> apt list
+	--> apt search [package-name]
+	--> apt update
+	--> apt upgrade
+	--> apt install [package-name]
+	--> apt show [package-name]
+	--> apt reinstall [package-name]
+	--> apt remove [package-name]
+	--> apt purge [package-name]
+	--> apt autoremove
